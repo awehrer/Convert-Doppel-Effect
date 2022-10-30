@@ -21,5 +21,5 @@ function convertDoppelText()
 		index++;
 	}
 	
-	return resultText;
+	document.getElementById("resultText").value = resultText;
 }
