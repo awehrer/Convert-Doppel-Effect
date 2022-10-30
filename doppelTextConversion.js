@@ -7,7 +7,7 @@ function convertDoppelText()
 	
 	var resultText = "";
 	
-	if (effectsArray[0].includes("Damage") && (effectsArray[0].includes("Enemy") || effectsArray[0].includes("Enemies")))
+	if (effectsArray[0].includes("Damage") && (effectsArray[0].includes("Enemy") || effectsArray[0].includes("Enemies") || effectsArray[0].includes("Line")))
 	{
 		temp = effectsArray[0].split(" [");
 		resultText += "| Magia2 effect 1 = " + temp[0] + "\n| Magia2 1 = " + temp[1].replace("]", "") + "\n";
