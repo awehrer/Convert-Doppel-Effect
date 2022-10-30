@@ -16,7 +16,7 @@ function convertDoppelText()
 	
 	while (index < effectsArray.length)
 	{
-		temp = effectsArray[0].split(" (");
+		temp = effectsArray[index].split(" (");
 		resultText += "| Magia2 effect " + (index + 1) + " = " + temp[0] + "\n| Magia2 " + (index + 1) + " = " + temp[1].replace(")", "") + "\n";
 		index++;
 	}
